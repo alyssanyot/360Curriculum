@@ -26,6 +26,7 @@ header{
     /*Text properties for itself and all children elements*/
     color: white;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 header h1{
