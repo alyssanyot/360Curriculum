@@ -13,3 +13,29 @@ nav {
     opacity: 1;
     background-color: #eee !important;
 }
+
+/*Header*/
+header{
+    /*Sizing of the element*/
+    height: 600px;
+    width:100%;
+    /*Set and adjust background image*/
+    background-image: url("https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_1280.jpg");
+    background-size: cover;
+    opacity: 0.9;
+    /*Text properties for itself and all children elements*/
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    font-size: 80px;
+    padding: 40px;
+}
+
+header p{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 450;
+    padding-bottom: 30px;
+}
