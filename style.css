@@ -12,4 +12,11 @@ nav {
 .nav-link:hover{
     opacity: 1;
     background-color: #eee !important;
+<<<<<<< HEAD
+=======
+}
+
+.nav-brand {
+    font-weight: bold !important;
+>>>>>>> navbar
 }
