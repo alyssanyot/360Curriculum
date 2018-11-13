@@ -44,3 +44,32 @@ header p{
     padding-bottom: 30px;
 
 }
+
+/*Services*/
+.services{
+    padding: 80px 0 80px 0;
+    text-align: center;
+}
+
+.services i{
+    /*Resize the container the icon is in*/
+    width: 80px;
+    height: 80px;
+    /*Adjust the size and position of the icon*/
+    font-size: 30px;
+    padding: 25px 20px;
+    /*Color changes the color of the icon*/
+    color: #fff;
+    background-color: #D2691E;
+    /*Changes the roundness of the container*/
+    border-radius: 50%;
+}
+
+.services span{
+    width: 200px;
+    display: inline-block;
+    font-size: 20px;
+}
+.services h1, .services span{
+    color: #D2691E;
+}
