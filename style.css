@@ -20,7 +20,7 @@ header{
     height: 600px;
     width:100%;
     /*Set and adjust background image*/
-    background-image: url("https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_1280.jpg");
+    background-image: url("header.jpg");
     background-size: cover;
     opacity: 0.9;
     /*Text properties for itself and all children elements*/
@@ -68,4 +68,58 @@ header p{
 }
 .services h1, .services span{
     color: #323A45;
+}
+
+/*Pricing*/
+.pricing{
+    text-align: center;
+}
+
+.pricing .package{
+    /*Border Styles*/
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 5px 5px #bbb;
+    border-radius: 5px;
+}
+
+.pricing ul{
+    /*Remove bullet points*/
+    list-style-type: none;
+    /*Remove indentation*/
+    padding: 0px;
+    /*Edit spacing and text styles*/
+    margin:30px;
+    font-size: 20px;
+}
+
+.pricing h1{
+    margin-bottom: 30px;
+}
+.packageOne, .packageThree {
+    height: 130px;
+    padding:50px;
+    margin: 20px;
+    font-size: 30px;
+    background-color: #323A45;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.packageTwo {
+    height: 140px;
+    padding:50px;
+    margin: 20px 20px 10px 20px;
+    font-size: 30px;
+    background-color: #0dc0c0;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.package h4{
+    height: 90px;
+    padding:30px;
+    margin: 0px 20px;
+    background-color: #ddd;
+    border-radius: 5px;
 }
