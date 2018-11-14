@@ -14,10 +14,6 @@ nav {
     background-color: #eee !important;
 }
 
-.nav-brand {
-    font-weight: bold !important;
-}
-
 /*Header*/
 header{
     /*Sizing of the element*/
@@ -30,6 +26,7 @@ header{
     /*Text properties for itself and all children elements*/
     color: white;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 header h1{
@@ -42,7 +39,6 @@ header p{
     font-style: italic;
     font-weight: 450;
     padding-bottom: 30px;
-
 }
 
 /*Services*/
@@ -60,7 +56,7 @@ header p{
     padding: 25px 20px;
     /*Color changes the color of the icon*/
     color: #fff;
-    background-color: #D2691E;
+    background-color: #5bc0de;
     /*Changes the roundness of the container*/
     border-radius: 50%;
 }
@@ -71,5 +67,5 @@ header p{
     font-size: 20px;
 }
 .services h1, .services span{
-    color: #D2691E;
+    color: #5bc0de;
 }
