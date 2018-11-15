@@ -71,8 +71,12 @@ header p{
 }
 
 /*Pricing*/
-.pricing{
+section {
     text-align: center;
+}
+
+section h1{
+    margin: 30px;
 }
 
 .pricing .package{
@@ -93,9 +97,7 @@ header p{
     font-size: 20px;
 }
 
-.pricing h1{
-    margin-bottom: 30px;
-}
+
 .packageOne, .packageThree {
     height: 130px;
     padding:50px;
