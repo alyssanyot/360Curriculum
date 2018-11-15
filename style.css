@@ -93,7 +93,7 @@ section h1{
     /*Remove indentation*/
     padding: 0px;
     /*Edit spacing and text styles*/
-    margin:30px;
+    margin:50px;
     font-size: 20px;
 }
 
@@ -124,4 +124,18 @@ section h1{
     margin: 0px 20px;
     background-color: #ddd;
     border-radius: 5px;
+}
+
+/*Team*/
+.team{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.team img{
+    width: 250px;
+    height: 250px;
+    /*Object fit will crop and center image based on width and height*/
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 50px;
 }
