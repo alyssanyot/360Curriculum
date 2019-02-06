@@ -5,21 +5,20 @@ nav {
     font-family: 'PT Sans Narrow', Arial, sans-serif;
 }
 
-.nav-link {
+.nav-link{
     opacity: 0.7;
 }
 
-.nav-link:hover {
+.nav-link:hover{
     opacity: 1;
     background-color: #eee !important;
 }
 
 /*Header*/
-
-header {
+header{
     /*Sizing of the element*/
     height: 600px;
-    width: 100%;
+    width:100%;
     /*Set and adjust background image*/
     background-image: url("header.jpg");
     background-size: cover;
@@ -30,12 +29,12 @@ header {
     font-family: 'Poppins', sans-serif;
 }
 
-header h1 {
+header h1{
     font-size: 80px;
     padding: 40px;
 }
 
-header p {
+header p{
     font-size: 24px;
     font-style: italic;
     font-weight: 450;
@@ -43,13 +42,12 @@ header p {
 }
 
 /*Services*/
-
-.services {
+.services{
     padding: 80px 0 80px 0;
     text-align: center;
 }
 
-.services i {
+.services i{
     /*Resize the container the icon is in*/
     width: 80px;
     height: 80px;
@@ -63,28 +61,25 @@ header p {
     border-radius: 50%;
 }
 
-.services span {
+.services span{
     width: 200px;
     display: inline-block;
     font-size: 20px;
 }
-
-.services h1,
-.services span {
+.services h1, .services span{
     color: #323A45;
 }
 
 /*Pricing*/
-
 section {
     text-align: center;
 }
 
-section h1 {
+section h1{
     margin: 30px;
 }
 
-.pricing .package {
+.pricing .package{
     /*Border Styles*/
     border-style: solid;
     border-width: 2px;
@@ -92,21 +87,20 @@ section h1 {
     border-radius: 5px;
 }
 
-.pricing ul {
+.pricing ul{
     /*Remove bullet points*/
     list-style-type: none;
     /*Remove indentation*/
     padding: 0px;
     /*Edit spacing and text styles*/
-    margin: 50px;
+    margin:50px;
     font-size: 20px;
 }
 
 
-.packageOne,
-.packageThree {
+.packageOne, .packageThree {
     height: 130px;
-    padding: 50px;
+    padding:50px;
     margin: 20px;
     font-size: 30px;
     background-color: #323A45;
@@ -116,7 +110,7 @@ section h1 {
 
 .packageTwo {
     height: 140px;
-    padding: 50px;
+    padding:50px;
     margin: 20px 20px 10px 20px;
     font-size: 30px;
     background-color: #0dc0c0;
@@ -124,22 +118,20 @@ section h1 {
     color: #fff;
 }
 
-.package h4 {
+.package h4{
     height: 90px;
-    padding: 30px;
+    padding:30px;
     margin: 0px 20px;
     background-color: #ddd;
     border-radius: 5px;
 }
 
 /*Team*/
-
-.team {
+.team{
     margin-top: 80px;
     margin-bottom: 80px;
 }
-
-.team img {
+.team img{
     width: 250px;
     height: 250px;
     /*Object fit will crop and center image based on width and height*/
@@ -149,45 +141,27 @@ section h1 {
 }
 
 /*Contact*/
-
-.contact {
+.contact{
     margin-bottom: 80px;
 }
 
-.contact .input-group {
-    margin-bottom: 25px;
+.contact .input-group{
+  margin-bottom: 25px;
 }
 
-.contact i {
-    padding: 15px;
+.contact i{
+    padding:15px;
 }
 
-.contact .btn {
-    border-radius: 0;
-    width: 100%;
-    font-size: 15px;
-    background-color: #f08080;
-    color: #fff;
+.contact .btn{
+  border-radius: 0;
+  width: 100%;
+  font-size: 15px;
+  background-color: #f08080;
+  color: #fff;
 }
 
-.contact .btn:hover {
-    background-color: #a85959 !important;
-    color: #fff !important;
-}
-
-/*Footer*/
-
-footer {
-    padding: 50px !important;
-    color: #cccccc;
-    background-color: #222222;
-}
-
-footer i {
-    margin-right: 15px;
-    margin-left: 15px;
-}
-
-.social-icons {
-    margin-bottom: 15px;
+.contact .btn:hover{
+  background-color: #a85959 !important;
+  color: #fff !important;
 }
