@@ -165,3 +165,8 @@ section h1{
   background-color: #a85959 !important;
   color: #fff !important;
 }
+
+/*Footer*/
+footer i{
+    margin:10px;
+}
